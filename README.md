@@ -1,0 +1,1 @@
+This website provides interactive simulations of various logic gates and their corresponding truth tables. It is designed to help users understand the basic principles of digital logic and how different logic gates operate.
