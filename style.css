@@ -42,3 +42,14 @@ th {
     background-color: #f2f2f2;
 }
 
+#half-adder {
+    width: 25%;
+    height: 25%;
+    margin-top: 30px;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
