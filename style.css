@@ -2,7 +2,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+    background-color: #fff;
+
 }
 
 header {
@@ -10,6 +11,10 @@ header {
     color: #fff;
     padding: 10px;
     text-align: center;
+}
+
+#information {
+    margin: 10px;
 }
 
 main {
@@ -21,9 +26,9 @@ main {
 }
 
 h3 {
-    color: #333;
+    color: #575151;
     text-align: center;
-    text-shadow:2px 2px #bcaeae;
+    /* text-shadow:2px 2px #484242; */
     font-size: 30px;
 }
 
