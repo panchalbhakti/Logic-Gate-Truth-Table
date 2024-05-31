@@ -28,13 +28,13 @@ main {
 h3 {
     color: #575151;
     text-align: center;
-    /* text-shadow:2px 2px #484242; */
     font-size: 30px;
 }
 
 table {
-    border-collapse: collapse;
     width: 100%;
+    width: 50%;
+    border-radius: 20px;
 }
 
 th, td {
@@ -48,13 +48,21 @@ th {
 }
 
 #half-adder {
-    width: 25%;
+    width: 20%;
     height: 25%;
     margin-top: 30px;
 }
 
 img {
-    margin-left: auto;
+    margin-left: 5rem;
     margin-right: auto;
     display: block;
+    width: 26rem;
+    height: 10rem;
+}
+
+#fulladder {
+    height: 15rem;
+    width: 45rem;
+    margin-right: 30rem;
 }
