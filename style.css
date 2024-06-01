@@ -22,7 +22,7 @@ main {
 }
 
 .gate {
-    margin-bottom: 30px;
+    text-align: center;
 }
 
 h3 {
@@ -32,9 +32,11 @@ h3 {
 }
 
 table {
-    width: 100%;
-    width: 50%;
+    height: 100%;
+    width: 70%;
     border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 th, td {
@@ -54,7 +56,7 @@ th {
 }
 
 img {
-    margin-left: 5rem;
+    margin-left: auto;
     margin-right: auto;
     display: block;
     width: 26rem;
@@ -64,5 +66,8 @@ img {
 #fulladder {
     height: 15rem;
     width: 45rem;
-    margin-right: 30rem;
+    margin-right:auto;
+    margin-left: auto;
+    display: block;
+    margin-top: 3rem;
 }
