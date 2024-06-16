@@ -384,5 +384,81 @@
         </div>
     </section>
 </main>
+<main>
+    <section class="gate">
+        <h3>Full Adder</h3>
+        <p>
+            A full adder is a digital circuit that adds three binary digits and produces the sum and carry-out. It's an extension of the half adder, capable of handling carry inputs from previous addition operations.
+        </p>
+        <table>
+            <tr>
+                <th>A</th>
+                <th>B</th>
+                <th>C-IN</th>
+                <th>Sum</th>
+                <th>C-OUT</th>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>0</td>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>1</td>
+                <td>0</td>
+                <td>1</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>1</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>0</td>
+                <td>1</td>
+                <td>0</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+            </tr>
+        </table>
+        <p class="logic">S=A ⊕ B ⊕ Cin; <br> Cout=(A • B)+ (Cin • (A ⊕B)).</p>
+        <div>
+        <img id="fulladder" src="full-adder.jpg" alt="FULL ADDER Gate">
+        </div>
+    </section>
 </body>
 </html>
